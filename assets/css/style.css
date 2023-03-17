@@ -38,6 +38,8 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  gap: 1rem;
+
 }
 .li{
   cursor: pointer;
@@ -57,6 +59,7 @@ body::-webkit-scrollbar-thumb {
   gap: 1rem;
 }
 .logo {
+  
   font-size: 1.3rem;
   gap: 3rem;
 }
@@ -74,14 +77,10 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
-/* .selected {
-  color: var(--ascent-secondary);
-} */
 .container-master {
   display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
-  /* height: 40vh; */
+  /* flex-direction: row; */
+/* position:relative; */
 }
 .container-left {
   display: flex;
@@ -121,8 +120,6 @@ body::-webkit-scrollbar-thumb {
 }
 .round {
   display: flex;
-  /* min-height: 30px; */
-  /* min-width: 30px; */
   border-radius: 50%;
   padding: 0.7rem 1.4rem;
   position: relative;
@@ -154,7 +151,6 @@ body::-webkit-scrollbar-thumb {
 .container-method {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 1rem 1rem;
   gap: 0.3rem;
 }
