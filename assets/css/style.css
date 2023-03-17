@@ -17,6 +17,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .nav {
+  position: sticky;
+  top: 0;
+  background-color: #101010;
+  z-index: 99999;
   display: flex;
   justify-content: space-between;
   align-items: center;
