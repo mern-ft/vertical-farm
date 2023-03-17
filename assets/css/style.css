@@ -26,6 +26,12 @@ body {
   align-items: center;
   padding: 2rem;
 }
+.li{
+  cursor: pointer;
+}
+.content:hover{
+  color: var(--ascent-secondary);
+}
 
 .container {
   display: flex;
@@ -55,9 +61,9 @@ body {
   align-items: center;
 }
 
-.selected {
+/* .selected {
   color: var(--ascent-secondary);
-}
+} */
 .container-master {
   display: flex;
   flex-direction: row;
@@ -110,21 +116,22 @@ body {
 }
 
 .x {
-  background: red;
+  background: darkgreen;
   z-index: 4;
+
 }
 
 .y {
   position: relative;
   right: 1.8rem;
   z-index: 5;
-  background-color: pink;
+  background-color: white;
 }
 .z {
   position: relative;
   right: 3.8rem;
   z-index: 6;
-  background-color: blue;
+  background-color: lightgreen;
 }
 
 .start {
